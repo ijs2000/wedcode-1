@@ -19,12 +19,12 @@ search_btn.addEventListener("click", async ()=>{
     let value=document.getElementById("searchtext").value;
     document.querySelector('.result').style.display="block"
     
-//if given value is zero or empty then it will display the alert
+
     if(value.length==0||value.includes(" ")){
          alert("Please enter the valid name without any spaces");
 
     }
-    //fetch the data from url
+   
     else {
       
         try{
